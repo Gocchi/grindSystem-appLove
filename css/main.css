@@ -1,0 +1,159 @@
+/*
+ * Ingresa el CSS del proyecto en este archivo
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+logo {
+  float: right;
+}
+
+header {
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+menu {
+  padding: 14px 70px;
+  overflow: auto;
+
+}
+
+.link {
+  font-weight: 700;
+  padding: 21px;
+ }
+
+ header {
+ 	position: fixed; /* Hace que nuestro menú esté fijo */
+ 	background: white;
+ 	width: 100%;
+ 	top: 0;
+ }
+
+ .logo {
+ 	float: right; /* Hacemos que al logo lo posicione del lado derecho */
+  width: 70px;
+ }
+
+ #home {
+ 	background-image: url("../assets/images/bg-home.jpg"); /* Nuestra imagen de portada */
+ 	background-position: center; /* Posicionar nuestra imagen al centro */
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	height: 554px;
+ 	text-align: center;
+ 	margin-top: 100px;
+  padding: 70px;
+  color: white;
+ }
+
+
+
+.menu {
+	padding: 14px 70px;
+	overflow: auto;
+}
+ .text-home {
+ 	font-size: 53px;
+ }
+
+ .btn-home {
+ 	background: #2ECC71;
+ 	color: #fff;
+ 	padding: 11px 20px;
+ 	border-radius: 1px;
+ 	font-weight: 500;
+ 	text-transform: uppercase;
+ 	margin-top: 63px;
+ 	display: inline-block;
+ 	font-size: 14px;
+
+ }
+
+#work {
+  text-align: center;
+  padding: 70px 7px;
+}
+
+ #services {
+ 	background-color: #F17C72;
+ 	text-align: center;
+ 	color: #fff;
+ 	padding: 70px 7px;
+ }
+
+ .box-services {
+ 	display: inline-block;
+ 	width: 30%;
+ 	margin-top: 63px;
+ }
+
+ .text-services {
+ 	font-size: 35px;
+ 	letter-spacing: 2px;
+ }
+
+ .box-work{
+  text-align: center;
+  padding: 70px 7px;
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+.box-work img {
+  margin: 20px;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.box-services img {
+    width: 200px;
+}
+
+#copyright{
+  text-align: center;
+  color: white;
+  background: #17202A;  
+  letter-spacing: 2px;
+  margin: 10px;
+}
